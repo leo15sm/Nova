@@ -1,0 +1,73 @@
+.cores{
+    color: #b3b3b3; /*Cinza - rgb(179, 179, 179)*/
+    color: #8b93a3; /*Azul meio cinza - rgb(139, 147, 163)*/
+    color: #8ca4c4; /*Azul mais claro - rgb(140, 164, 196)*/
+    color: #748dbb; /*Azul médio - rgb(116, 141, 187)*/
+    color: #2c436e; /*Azul mais escuro - rgb(44, 67, 110)*/
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    background: cover;
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    flex-direction: row; /*Define o fluxo em linha*/
+    justify-content: space-between; /*Define um espaço entre os componentes*/
+    align-items: center; /*Alinha os itens*/
+    
+    background-color: rgb(255, 255, 255); /*rgb(139, 147, 163,.65);*/
+    
+    width: 100%;
+    max-width: 1366px;
+    height: 12vh;
+
+    border: none;
+    position: fixed;
+    z-index: 100;
+}
+
+#logo{
+    width: 10vw;
+    height: 10vh;
+    padding-left: 50px;
+}
+
+#logo img{
+    width: auto;
+    height: 100%;
+}
+
+.nav-list{
+    display: flex;
+    padding-right: 2em; 
+    list-style: none;
+}
+
+.nav-list li{  
+    padding: 10px;
+}
+
+a{
+    color: #2c436e;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #748dbb;
+    transition: 0.3s all;
+}
